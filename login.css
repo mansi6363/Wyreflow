@@ -1,7 +1,6 @@
 body {
     background-image: url("https://plexcollectionposters.com/images/2021/05/16/background-images-for-login-page3bc68c53b0db224b.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
 }
 
 main {
@@ -80,4 +79,33 @@ main {
 
 .form-container .btn:hover, .open-button:hover {
     opacity: 1;
+}
+
+@media (max-width:1400px) {
+    main {
+        margin: 70px auto;
+    }
+    .left_content {
+        display: none;
+    }
+    .form-container {
+        width: 100%;
+        margin: 30px auto;
+    }
+    .form-container input[type=text], .form-container input[type=password] {
+        width: 100%;
+        margin: 0.5rem 1rem 3rem 1rem;
+        padding: 0%;
+    }
+}
+
+@media (max-width:500px) {
+    main {
+        width: 95%;
+        margin: 15px 5px 20px 8px;
+    }
+    .form-container {
+        padding-top: 5px;
+        margin-top: 10px;
+    }
 }
